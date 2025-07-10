@@ -10,11 +10,11 @@ Each sub-folder under the `STC/` directory represents a self-contained mini-proj
 
 | Module/Folders | Description |
 |----------------|-------------|
-| `library_Management_System` | Book filtering, issue tracking, overdue listings using Stream API |
-| `Online_Shopping_Cart_System` | Cart operations including total calculation, discount application, and product filtering |
-| `oop_design_oriented_scenarios_Banking_Management_System` | Bank account management, customer analytics, sorting/filtering via streams |
-| `oop_design_oriented_scenarios_Library_Management_System` | Library system modeled with OOP and enhanced with stream-based operations |
-| `Student_Management_System` | Student grading, pass/fail filtering, subject-wise grouping, and more |
+| `library_Management_System` 
+| `Online_Shopping_Cart_System` 
+| `oop_design_oriented_scenarios_Banking_Management_System`
+| `oop_design_oriented_scenarios_Library_Management_System` 
+| `Student_Management_System`
 
 ---
 
