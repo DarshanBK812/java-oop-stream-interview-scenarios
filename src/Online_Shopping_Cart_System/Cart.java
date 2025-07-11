@@ -20,11 +20,15 @@ public class Cart {
 //				Product::getProductQuantity, (existing, duplicate) -> existing));
 //		System.out.println(map);
 
+//<----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		
 		// 1.Calculate total bill
 //		double totalSum = cart.stream().mapToDouble(product -> product.getProductPrice() * product.getProductQuantity())
 //				.sum();
 //		System.out.println(totalSum);
 
+//<----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		
 		// 2.Remove product from cart based on ID
 //		int id = 2;
 //		ListIterator<Product> item = cart.listIterator();
@@ -40,6 +44,8 @@ public class Cart {
 //		
 //		cart.stream().map(Product::getProductName).forEach(System.out::println);
 
+//<----------------------------------------------------------------------------------------------------------------------------------------------------------->
+		
 		cart.remove(cart.stream().filter(item -> item.getProductId() == 2).findFirst().orElse(null));
 
 		cart.forEach(System.out::println);
