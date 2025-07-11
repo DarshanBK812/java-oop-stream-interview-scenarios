@@ -14,18 +14,23 @@ public class Colleuage {
 
 		// 1. To calculate average marks
 //		System.out.println(students.stream().mapToDouble(Student::getStduentMarks).sum() / students.stream().count());
+		
+//<----------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 //		2.Find topper of the class
 //		Optional<Object> name2 = students.stream().sorted(Comparator.comparing(Student::getStduentMarks).reversed())
 //				.findFirst().map(name -> name.getStudentName());
 //		System.out.println(name2.get());
+		
+//<----------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 // 		3.Find studemnt having less marks  of the class
 //		System.out.println(students.stream().sorted((a, b) -> a.getStduentMarks() - b.getStduentMarks()).findFirst()
 //				.map(student -> student.getStudentName()).findFirst();
+		
+//<----------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 		// 4.Count students with marks > 75%
-
 //		int count = 0;  using collection
 //		List<Student> list = new ArrayList<Student>();
 //		for (Student student : students) {
