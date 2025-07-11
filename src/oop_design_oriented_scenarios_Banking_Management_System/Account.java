@@ -14,6 +14,7 @@ public abstract class Account implements Bank {
 		this.accBal = accBal;
 	}
 
+	@Override
 	public void bankName(String name) {
 		System.out.println("The bank name :" + bankName);
 	}
