@@ -20,9 +20,9 @@ public class Colleuage {
 //				.findFirst().map(name -> name.getStudentName());
 //		System.out.println(name2.get());
 
-// 		3.Find topper of the class
+// 		3.Find studemnt having less marks  of the class
 //		System.out.println(students.stream().sorted((a, b) -> a.getStduentMarks() - b.getStduentMarks()).findFirst()
-//				.map(student -> student.getStudentName()).get());
+//				.map(student -> student.getStudentName()).findFirst();
 
 		// 4.Count students with marks > 75%
 
