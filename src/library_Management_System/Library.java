@@ -21,6 +21,8 @@ public class Library {
 //		System.out.println("Number of Books : " + totalBooks);
 		// or
 //		System.out.println("Number of Books : " + books.size());
+		
+//<----------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 		// Calculate avarage publictaion year of all book
 //		OptionalDouble optionalDouble = books.stream().mapToInt(Book::getPublicationYear).average();
@@ -34,11 +36,15 @@ public class Library {
 			sum += iterator.next().getPublicationYear();
 		}
 		System.out.println("avarage publictaion year :" + sum / books.size());
+		
+//<----------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 		// Identify the oldest book in the library
 //		Book book = books.stream().min(Comparator.comparing(Book::getPublicationYear)).get();
 //
 //		System.out.println("oldest book in the library: " + book);
+		
+//<----------------------------------------------------------------------------------------------------------------------------------------------------------->
 
 		// without stream
 //		int minYear = 1925;
