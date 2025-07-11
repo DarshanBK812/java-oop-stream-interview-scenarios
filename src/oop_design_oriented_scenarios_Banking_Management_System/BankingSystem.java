@@ -34,7 +34,7 @@ public class BankingSystem {
 
 		for (Account account : accounts) {
 
-			if (account.getBankName() == "SBI") {
+			if (account.getBankName().equals("SBI")) {
 				sumBal += account.getAccBal();
 				names.add(account.getAccHolderName());
 			}
